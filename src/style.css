@@ -1,0 +1,64 @@
+#as {
+ -fx-background-color:  #f2f2f2;
+ -fx-border-color: #26a9e0;
+ -fx-border-radius: 20;
+ -fx-padding: 35 35 35 35;
+ -fx-background-radius: 20;
+ -fx-border-width: 3;
+ -fx-effect: dropshadow( gaussian, rgba(0,0,0,0.3) , 15, 0.0 , 4 , 4 );
+}
+
+#bp {
+ -fx-background-image:  url("bg.jpg");
+}
+
+#btn {
+    -fx-background-radius: 15, 15, 15, 15;
+    -fx-padding: 5px 15px 5px 15px;
+    -fx-background-color: linear-gradient(#26a9e0, #0077c0 );
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#h {
+    -fx-text-fill: #404040;
+    -fx-font-weight: bold;
+}
+
+#q {
+    -fx-text-fill: #404040;
+    -fx-font-weight: bold;
+}
+
+#msg {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+}
+
+#text {
+ -fx-fill:  linear-gradient(orange , orangered);
+}
+
+#message {
+    -fx-text-fill: #f78314;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+
+#score {
+    -fx-font-weight: bold;
+}
+
+#col1{
+    -fx-text-fill: #f78415;
+    -fx-font-weight: bold;
+}
+
+#col2{
+    -fx-background-radius: 15, 15, 15, 15;
+    -fx-padding: 5px 15px 5px 15px;
+    -fx-background-color: linear-gradient(#f7941e, #f78415 );
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
